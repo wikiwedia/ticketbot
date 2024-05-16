@@ -168,13 +168,7 @@ export async function close(interaction: ButtonInteraction | CommandInteraction 
 					.replace("TRANSCRIPTURL", `${domain}${id}`)
 					.replace("REASON", ticket.closereason ?? client.locales.getSubValue("other", "noReasonGiven"))
 					.replace("CLOSERNAME", interaction.user.tag)
-			)
-			.setFooter({
-				// Please respect the project by keeping the credits, (if it is too disturbing you can credit me in the "about me" of the bot discord)
-				text: `ticket.pm ${footer.trim() !== "" ? `- ${footer}` : ""}`, // Please respect the LICENSE :D
-				// Please respect the project by keeping the credits, (if it is too disturbing you can credit me in the "about me" of the bot discord)
-				iconURL: locale.getNoErrorSubValue("embeds", "ticketClosedDM", "footer", "iconUrl")
-			});
+			);
 
 		client.users.fetch(creator).then((user) => {
 			user

@@ -63,11 +63,7 @@ export default class ReadyEvent extends BaseEvent {
 			.setColor(
 				locale.getNoErrorSubValue("embeds", "openTicket", "color") as ColorResolvable | undefined ??
 				this.client.config.mainColor
-			)
-			.setFooter({
-				text: footer,
-				iconURL: locale.getNoErrorSubValue("embeds.openTicket.footer.iconURL")
-			});
+			);
 
 		const row = new ActionRowBuilder<ButtonBuilder>().addComponents(
 			new ButtonBuilder().setCustomId("openTicket").setLabel(this.client.locales.getSubValue("other", "openTicketButtonMSG")).setStyle(ButtonStyle.Primary)
