@@ -2,17 +2,11 @@
 	"embeds": {
 		"openTicket": {
 			"title": "Відкрити тікет",
-			"description": "Натисніть на кнопку щоб відкрити тікет",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Натисніть на кнопку щоб відкрити тікет"
 		},
 		"ticketOpened": {
 			"title": "Тікет CATEGORYNAME",
-			"description": "Персонал надасть відповідь якомога швидше!",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Персонал надасть відповідь якомога швидше!"
 		},
 		"ticketClosed": {
 			"title": "Тікет закрито",
@@ -20,10 +14,7 @@
 		},
 		"ticketClosedDM": {
 			"title": "Тікет закрито",
-			"description": "Тікет n°TICKETCOUNT був закритий користувачем CLOSERNAME з наступної причини: `REASON`\n\nОсь транскрипція історії листування: TRANSCRIPTURL",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Тікет n°TICKETCOUNT був закритий користувачем CLOSERNAME з наступної причини: `REASON`\n\nОсь транскрипція історії листування: TRANSCRIPTURL"
 		}
 	},
 	"modals": {

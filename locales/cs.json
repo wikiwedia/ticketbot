@@ -2,17 +2,11 @@
 	"embeds": {
 		"openTicket": {
 			"title": "Otevřít ticket",
-			"description": "Kliknutím na tlačítko otevřete ticket",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Kliknutím na tlačítko otevřete ticket"
 		},
 		"ticketOpened": {
 			"title": "Ticket CATEGORYNAME",
-			"description": "Náš tým vám brzy odpoví!",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Náš tým vám brzy odpoví!"
 		},
 		"ticketClosed": {
 			"title": "Ticket byl uzavřen",
@@ -20,10 +14,7 @@
 		},
 		"ticketClosedDM": {
 			"title": "Ticket byl uzavřen",
-			"description": "Ticket n°TICKETCOUNT byl uzavřen. Uzavřel ho CLOSERNAME z důvodu: `REASON`\n\nZde máš přepis ticketu: TRANSCRIPTURL",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Ticket n°TICKETCOUNT byl uzavřen. Uzavřel ho CLOSERNAME z důvodu: `REASON`\n\nZde máš přepis ticketu: TRANSCRIPTURL"
 		}
 	},
 	"modals": {
@@ -58,7 +49,6 @@
 	"ticketCreatingTranscript": "> Vytvářím přepis...",
 	"ticketTranscriptCreated": "> Přepis byl vytvořen! TRANSCRIPTURL",
 	"ticketLimitReached": "Můžeš mít pouze TICKETLIMIT otevřených ticketu!",
-
 	"other": {
 		"openTicketButtonMSG": "Otevřít ticket",
 		"deleteTicketButtonMSG": "Smazat ticket",

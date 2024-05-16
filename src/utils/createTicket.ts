@@ -98,8 +98,6 @@ export const createTicket = async (interaction: StringSelectMenuInteraction | Mo
 					});
 		}
 
-
-		const footer = locale.getSubValue("embeds", "ticketOpened", "footer", "text").replace("ticket.pm", "");
 		if(ticketType.color?.toString().trim() === "") ticketType.color = undefined;
 		const ticketOpenedEmbed = new EmbedBuilder({
 			color: 0,

@@ -2,17 +2,11 @@
 	"embeds": {
 		"openTicket": {
 			"title": "Abrir un ticket",
-			"description": "Presiona el botón de abajo para abrir un ticket",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Presiona el botón de abajo para abrir un ticket"
 		},
 		"ticketOpened": {
 			"title": "Ticket CATEGORYNAME",
-			"description": "Un miembro del equipo te responderá dentro de un momento",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Un miembro del equipo te responderá dentro de un momento"
 		},
 		"ticketClosed": {
 			"title": "Ticket cerrado",
@@ -20,10 +14,7 @@
 		},
 		"ticketClosedDM": {
 			"title": "Ticket cerrado",
-			"description": "El ticket n°TICKETCOUNT se cerró por CLOSERNAME con la siguiente razón: `REASON`\n\nAquí tienes la traducción: TRANSCRIPTURL",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "El ticket n°TICKETCOUNT se cerró por CLOSERNAME con la siguiente razón: `REASON`\n\nAquí tienes la traducción: TRANSCRIPTURL"
 		}
 	},
 	"modals": {
@@ -58,7 +49,6 @@
 	"ticketCreatingTranscript": "> Transcribiendo...",
 	"ticketTranscriptCreated": "> ¡Ticket transcripto! TRANSCRIPTURL",
 	"ticketLimitReached": "Solo puedes tener TICKETLIMIT tickets abiertos al mismo tiempo!",
-
 	"other": {
 		"openTicketButtonMSG": "Abrir un ticket",
 		"deleteTicketButtonMSG": "Eliminar ticket",

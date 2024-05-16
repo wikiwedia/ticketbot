@@ -48,18 +48,11 @@ export type LocaleType = {
         openTicket: {
             title: string,
             color?: ColorResolvable,
-            description: string,
-            footer: {
-                text: string
-            }
+            description: string
         },
         ticketOpened: {
             title: string,
-            description: string,
-            footer: {
-                text: string,
-                iconUrl?: string
-            }
+            description: string
         },
         ticketClosed: {
             title: string,
@@ -68,11 +61,7 @@ export type LocaleType = {
         ticketClosedDM: {
             title: string,
             color?: ColorResolvable,
-            description: string,
-            footer: {
-                text: string,
-                iconUrl?: string
-            }
+            description: string
         }
     },
     modals: {

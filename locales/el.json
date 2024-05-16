@@ -2,17 +2,11 @@
 	"embeds": {
 		"openTicket": {
 			"title": "Ανοίξτε ένα ticket",
-			"description": "Κάντε κλικ στο κουμπί για να ξεκινήσετε το άνοιγμα ενός ticket",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Κάντε κλικ στο κουμπί για να ξεκινήσετε το άνοιγμα ενός ticket"
 		},
 		"ticketOpened": {
 			"title": "Ticket CATEGORYNAME",
-			"description": "Ένα προσωπικό θα σας απαντήσει το συντομότερο δυνατό!",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Ένα προσωπικό θα σας απαντήσει το συντομότερο δυνατό!"
 		},
 		"ticketClosed": {
 			"title": "Ticket έκλεισε",
@@ -20,10 +14,7 @@
 		},
 		"ticketClosedDM": {
 			"title": "Ticket έκλεισε",
-			"description": "Το ticket n°TICKETCOUNT έκλεισε από τον CLOSERNAME με τον εξής λόγο: `REASON`\n\nΑκολουθεί η μεταγραφή του ticket: TRANSCRIPTURL",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Το ticket n°TICKETCOUNT έκλεισε από τον CLOSERNAME με τον εξής λόγο: `REASON`\n\nΑκολουθεί η μεταγραφή του ticket: TRANSCRIPTURL"
 		}
 	},
 	"modals": {
@@ -61,7 +52,6 @@
 	"ticketRenamed": "> Το ticket μετονομάστηκε σε NEWNAME",
 	"ticketLimitReached": "Μπορείτε να ανοίξετε μόνο TICKETLIMIT tickets ταυτόχρονα!",
 	"noTickets": "Δεν έχετε πρόσβαση σε κανένα ticket",
-
 	"other": {
 		"openTicketButtonMSG": "Ανοίξτε ένα ticket",
 		"deleteTicketButtonMSG": "Διαγραφή ticket",

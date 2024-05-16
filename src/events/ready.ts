@@ -52,10 +52,6 @@ export default class ReadyEvent extends BaseEvent {
 			process.exit(0);
 		}
 		const locale = this.client.locales;
-		let footer = locale.getSubValue("embeds", "openTicket", "footer", "text").replace("ticket.pm", "");
-		// Please respect the project by keeping the credits, (if it is too disturbing you can credit me in the "about me" of the bot discord)
-		footer = `ticket.pm ${footer.trim() !== "" ? `- ${footer}` : ""}`; // Please respect the LICENSE :D
-		// Please respect the project by keeping the credits, (if it is too disturbing you can credit me in the "about me" of the bot discord)
 		const embed = new EmbedBuilder({
 			...locale.getSubRawValue("embeds.openTicket") as object,
 			color: 0,

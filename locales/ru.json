@@ -2,17 +2,11 @@
 	"embeds": {
 		"openTicket": {
 			"title": "Открыть заявку",
-			"description": "Нажмите на кнопку, чтобы начать процесс открытия заявки",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Нажмите на кнопку, чтобы начать процесс открытия заявки"
 		},
 		"ticketOpened": {
 			"title": "Заявка в категории CATEGORYNAME",
-			"description": "Сотрудник ответит вам как можно скорее!",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Сотрудник ответит вам как можно скорее!"
 		},
 		"ticketClosed": {
 			"title": "Заявка закрыта",
@@ -20,10 +14,7 @@
 		},
 		"ticketClosedDM": {
 			"title": "Заявка закрыта",
-			"description": "Заявка №TICKETCOUNT была закрыта CLOSERNAME с следующей причиной: `REASON`\n\nВот транскрипт заявки: TRANSCRIPTURL",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Заявка №TICKETCOUNT была закрыта CLOSERNAME с следующей причиной: `REASON`\n\nВот транскрипт заявки: TRANSCRIPTURL"
 		}
 	},
 	"modals": {

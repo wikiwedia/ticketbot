@@ -157,7 +157,6 @@ export async function close(interaction: ButtonInteraction | CommandInteraction 
 
 
 		if(!client.config.closeOption.dmUser) return;
-		const footer = locale.getSubValue("embeds", "ticketClosedDM", "footer", "text").replace("ticket.pm", "");
 		const ticketClosedDMEmbed = new EmbedBuilder({
 			color: 0,
 		})

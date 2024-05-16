@@ -2,17 +2,11 @@
 	"embeds": {
 		"openTicket": {
 			"title": "Open ticket",
-			"description": "Click the button to open a ticket!",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Click the button to open a ticket!"
 		},
 		"ticketOpened": {
 			"title": "Ticket CATEGORYNAME",
-			"description": "A staff will reply to you as soon as possible.",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "A staff will reply to you as soon as possible."
 		},
 		"ticketClosed": {
 			"title": "Ticket closed",
@@ -20,10 +14,7 @@
 		},
 		"ticketClosedDM": {
 			"title": "Ticket closed",
-			"description": "The ticket n°TICKETCOUNT has been closed by CLOSERNAME with the following reason: `REASON`\n\nHere is the transcript of the ticket: TRANSCRIPTURL",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "The ticket n°TICKETCOUNT has been closed by CLOSERNAME with the following reason: `REASON`\n\nHere is the transcript of the ticket: TRANSCRIPTURL"
 		}
 	},
 	"modals": {

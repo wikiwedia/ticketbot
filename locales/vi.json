@@ -2,17 +2,11 @@
 	"embeds": {
 		"openTicket": {
 			"title": "Mở một phiếu hỗ trợ",
-			"description": "Nhấn vào nút để bắt đầu mở một phiếu hỗ trợ",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Nhấn vào nút để bắt đầu mở một phiếu hỗ trợ"
 		},
 		"ticketOpened": {
 			"title": "Phiếu hỗ trợ CATEGORYNAME",
-			"description": "Một nhân viên sẽ phản hồi bạn ngay lập tức!",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Một nhân viên sẽ phản hồi bạn ngay lập tức!"
 		},
 		"ticketClosed": {
 			"title": "Phiếu hỗ trợ đã đóng",
@@ -20,10 +14,7 @@
 		},
 		"ticketClosedDM": {
 			"title": "Phiếu hỗ trợ đã đóng",
-			"description": "Phiếu hỗ trợ số n°TICKETCOUNT đã được CLOSERNAME đóng với lý do sau: `REASON`\n\nDưới đây là bản ghi chép của phiếu hỗ trợ: TRANSCRIPTURL",
-			"footer": {
-				"text": "ticket.pm"
-			}
+			"description": "Phiếu hỗ trợ số n°TICKETCOUNT đã được CLOSERNAME đóng với lý do sau: `REASON`\n\nDưới đây là bản ghi chép của phiếu hỗ trợ: TRANSCRIPTURL"
 		}
 	},
 	"modals": {
