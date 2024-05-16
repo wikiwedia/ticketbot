@@ -1,0 +1,137 @@
+{
+	"clientId": "1240070825638625300", // The id of the discord bot
+	"guildId": "1193348799112945744", // The id of the discord server
+	"mainColor": "#FFA500", // The hex color of the embeds by default
+	"lang": "main", // If you want to set english please set "main"
+	"openTicketChannelId": "1240075708517191750", // The id of the channel where the message to create a ticket will be sent
+	"ticketTypes": [
+		// You have a limit of 25 types (the limit of Discord)
+		{
+			"codeName": "bug-reports", // The name need to be in lowercase
+			"name": "Bug reports", // The name that will be displayed in the ticket
+			"description": "Report glitches, issues, exploits and more", // The description of the Ticket in Create Ticket Menu
+			"emoji": "🐛", // The emoji of the type (can be blank)
+			"color": "", // Can be a hex color or blank to use the main color
+			"categoryId": "1239255166549491772", // The category id where the tickets will be created
+			"ticketNameOption": "🐛bugrpt-TICKETCOUNT", // Here is all parameter: USERNAME, USERID, TICKETCOUNT (set to blank to use the default name)
+			"customDescription": "", // The custom description of the ticket type, here is all parameter: USERNAME, USERID, TICKETCOUNT, REASON1, 2, ect (set to blank to use the default description)
+			"cantAccess": [], // The roles who can't access to this ticket type
+			"askQuestions": true, // If the bot should ask the reason of the ticket
+			"questions": [
+				{
+					"label": "Describe the bug",
+					"placeholder": "Type here",
+					"style": "PARAGRAPH", // SHORT or PARAGRAPH
+					"maxLength": 400
+				},
+				{
+					"label": "Please show it occuring",
+					"placeholder": "eg. a streamable or imgur link",
+					"style": "PARAGRAPH", // SHORT or PARAGRAPH
+					"maxLength": 400
+				}
+			], // Leave blank if you don't want to ask questions
+			"staffRoles": [
+				"1193350106620112936"
+			] // Category specific staff role (instead of the default ones)
+		},
+		{
+			"codeName": "ban-appeals", // The name need to be in lowercase
+			"name": "Ban appeals", // The name that will be displayed in the ticket
+			"description": "Appeal for a discord or in game ban", // The description of the Ticket in Create Ticket Menu
+			"emoji": "🔨", // The emoji of the type (can be blank)
+			"color": "", // Can be a hex color or blank to use the main color
+			"categoryId": "1239255166549491772", // The category id where the tickets will be created
+			"ticketNameOption": "🔨banapl-TICKETCOUNT", // Here is all parameter: USERNAME, USERID, TICKETCOUNT (set to blank to use the default name)
+			"customDescription": "", // The custom description of the ticket type, here is all parameter: USERNAME, USERID, TICKETCOUNT, REASON1, 2, ect (set to blank to use the default description)
+			"cantAccess": [], // The roles who can't access to this ticket type
+			"askQuestions": true, // If the bot should ask the reason of the ticket
+			"questions": [
+				{
+					"label": "Your username, ban reasoning",
+					"placeholder": "Type here",
+					"style": "PARAGRAPH", // SHORT or PARAGRAPH
+					"maxLength": 400
+				},
+				{
+					"label": "Why do you think you should be unbanned?",
+					"placeholder": "PLEASE do not waste our time!",
+					"style": "PARAGRAPH", // SHORT or PARAGRAPH
+					"maxLength": 400
+				}
+			], // Leave blank if you don't want to ask questions
+			"staffRoles": [
+				"1193350106620112936"
+			] // Category specific staff role (instead of the default ones)
+		},
+		{
+			"codeName": "report-players", // The name need to be in lowercase
+			"name": "Report players", // The name that will be displayed in the ticket
+			"description": "Report players for breaking the rules. Please show evidence", // The description of the Ticket in Create Ticket Menu
+			"emoji": "❗", // The emoji of the type (can be blank)
+			"color": "", // Can be a hex color or blank to use the main color
+			"categoryId": "1239255166549491772", // The category id where the tickets will be created
+			"ticketNameOption": "❗plrrpt-TICKETCOUNT", // Here is all parameter: USERNAME, USERID, TICKETCOUNT (set to blank to use the default name)
+			"customDescription": "", // The custom description of the ticket type, here is all parameter: USERNAME, USERID, TICKETCOUNT, REASON1, 2, ect (set to blank to use the default description)
+			"cantAccess": [], // The roles who can't access to this ticket type
+			"askQuestions": true, // If the bot should ask the reason of the ticket
+			"questions": [
+				{
+					"label": "Who did it? How did they break the rules?",
+					"placeholder": "their username, what they did",
+					"style": "PARAGRAPH", // SHORT or PARAGRAPH
+					"maxLength": 400
+				},
+				{
+					"label": "Please show evidence",
+					"placeholder": "eg. a streamable or imgur link",
+					"style": "PARAGRAPH", // SHORT or PARAGRAPH
+					"maxLength": 400
+				}
+			], // Leave blank if you don't want to ask questions
+			"staffRoles": [
+				"1193350106620112936"
+			] // Category specific staff role (instead of the default ones)
+		}
+	],
+	"ticketNameOption": "Ticket-TICKETCOUNT", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
+	// Ticket Claim Options
+	"claimOption": {
+		"claimButton": true, // Whether to enable ticket claim button or not
+		// The X can be replaced with S (The staff that claimed the ticket) or U (The user that created the ticket)
+		"nameWhenClaimed": "✔️ Ticket-TICKETCOUNT", // Here is all parameter: X_USERNAME, X_USERID, TICKETCOUNT
+		"categoryWhenClaimed": "" // The category the ticket is moved to when claimed
+	},
+	"rolesWhoHaveAccessToTheTickets": [
+		"1193350106620112936"
+	], // Roles who can access to the tickets (Like the staff)/ Treat this as global admin role type of thing.
+	"rolesWhoCanNotCreateTickets": [], // Roles who can	not create a tickets (Like a blacklist)
+	"pingRoleWhenOpened": true,
+	"roleToPingWhenOpenedId": [], // The role to ping when a ticket is opened
+	"logs": true,
+	"logsChannelId": "1221794209967636510", // The id of the channel where the logs will be sent
+	"closeOption": {
+		"closeButton": true, // If false the ticket can be closed only by doing /closes
+		"dmUser": true, // Whether to DM the user when the ticket is closed
+		"createTranscript": false, // If set to true, when the ticket is closed a transcript will be generated and sent in the logs channel
+		"askReason": true, // If false the ticket will be closed without asking the reason
+		"whoCanCloseTicket": "STAFFONLY", // STAFFONLY (roles configured at "rolesWhoHaveAccessToTheTickets") or EVERYONE
+		"closeTicketCategoryId": "" // The id of the category where a closed ticket will be moved to. Leave blank to disable this feature
+	},
+	"uuidType": "uuid", // uuid or emoji
+	"status": {
+		"enabled": true, // If you want to enable the status of the bot
+		"text": "Emily is Away", // The text of the status
+		"type": "PLAYING", // PLAYING, WATCHING, LISTENING, STREAMING, COMPETING
+		"url": "", // The url of the status if the type is STREAMING (can be blank)
+		"status": "idle" // online, idle, dnd, invisible set to online if the type is STREAMING
+	},
+	"maxTicketOpened": 1, // The number of tickets the user can open while another one is already open. Set to 0 to unlimited
+	/*
+	Whether or not to minimizing the tracking data that are being sent
+	Enabling this will cause the telemetry to only send the software version and node version
+	*/
+	"minimalTracking": true,
+	// Hide internal websocket logs
+	"showWSLog": false
+}
