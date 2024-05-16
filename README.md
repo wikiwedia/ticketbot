@@ -1,3 +1,8 @@
+# >> this is a fork of https://github.com/Sayrix/ticket-bot <<
+## I DID NOT MAKE THISSS
+scroll for original readme :trollface:👍
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 # Ticket Bot
 
 Ticket Bot is a open source project of an ticket discord bot using [discord.js](https://discord.js.org) v14
