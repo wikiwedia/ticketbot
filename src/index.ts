@@ -25,7 +25,7 @@ process.on("uncaughtException", (err: string) => {
 	console.error(err);
 });
 
-process.stdout.write(`connecting to PROBE.`);
+process.stdout.write("connecting to PROBE.");
 
 // Update Detector
 fetch("https://api.github.com/repos/Sayrix/Ticket-Bot/tags").then((res) => {
